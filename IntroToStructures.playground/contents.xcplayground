@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='macos' display-mode='raw'>
+<playground version='6.0' target-platform='macos' display-mode='rendered'>
     <pages>
         <page name='1 - Introduction'/>
         <page name='2 - Curriculum Expectations'/>
         <page name='3 - Simplest Example'/>
-        <page name='4 - About Functions'/>
-        <page name='5 - Area Example - Rectangle'/>
-        <page name='6 - Writing Documentation'/>
-        <page name='7 - Authoring Functions'/>
+        <page name='4 - Area Example - Rectangle'/>
+        <page name='5 - Authoring Structures'/>
     </pages>
 </playground>

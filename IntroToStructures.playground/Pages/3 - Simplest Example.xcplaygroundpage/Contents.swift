@@ -55,7 +55,7 @@ distance(from: firstPoint, to: secondPoint)
  
  Both code implementations perform the same job. Which do you prefer? Why?
 
- [Previous: Curriculum Expectations](@previous) | Page 3 | [Next: Shapes as Structures](@next)
+ [Previous: Curriculum Expectations](@previous) | Page 3 | [Next: Area Example - Rectangle](@next)
 
 */
 
