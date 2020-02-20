@@ -32,9 +32,112 @@ import Foundation
  
  */
 // Begin your work here...
+struct parallelogram {
+    
+    //Proporties
+    var base:Double
+    var height:Double
+    var broadside:Double
+    
+    //Method
+    var describeShape:String{
+        return "The parallelogram has a base of \(base), a height of \(height) and a broadside of \(broadside)"
+    }
+    
+    var reportArea:String{
+        return "The parallelogram has a area of \(base*height)"
+    }
+    
+    var reportPerimeter:String{
+        return "The parallelogram has a perimeter of \(2*base+2*broadside)"
+    }
+    
+}
 
+var someParallelogram = parallelogram(base: 7, height: 4, broadside: 5)
+print(someParallelogram.describeShape)
+print(someParallelogram.reportArea)
+print(someParallelogram.reportPerimeter)
 
+struct circle {
+    
+    //Properties
+    var radius:Double
+    
+    //Method
+    var describeShape:String{
+        return "The circle has a radius of \(radius)"
+    }
+    
+    var reportArea:String{
+        return "The circle has a area of " + String(format:"%.2f",(pow(radius,2)*Double.pi))
+    }
+    
+    var reportPerimeter:String{
+        return "The parallelogram has a perimeter of " + String(format:"%.2f",(2*Double.pi*radius))
+    }
+    
+}
 
+var someCircle = circle(radius: 5)
+print(someCircle.describeShape)
+print(someCircle.reportArea)
+print(someCircle.reportPerimeter)
+
+struct sphere {
+    
+    //Properties
+    var radius:Double
+    
+    //Method
+    var describeShape:String{
+        return "The sphere has a radius of \(radius)"
+    }
+    
+    var reportVolume:String{
+        return "The sphere has a volume of " + String(format:"%.2f",(4*Double.pi*pow(radius, 3))/3)
+    }
+    
+    var reportSurfaceArea:String{
+        return "The sphere has a surface area of " + String(format:"%.2f",(4*Double.pi*pow(radius,2)))
+    }
+    
+}
+
+var someSphere = sphere(radius: 5)
+print(someSphere.describeShape)
+print(someSphere.reportSurfaceArea)
+print(someSphere.reportVolume)
+
+struct triangularPrism {
+    
+    //Properties
+    var baseA:Double
+    var baseB:Double
+    var baseC:Double
+    var height:Double
+    var heightOnBase:Double
+    
+    //Method
+    var describeShape:String{
+        return "The triangular prism has a base of \(baseA), \(baseB) and \(baseC), a height on the base of \(heightOnBase) and a height of \(height)"
+    }
+    
+    var reportVolume:String{
+        return "The triangular prism has a volume of \(baseB*height*heightOnBase/2) "
+    }
+    
+    var reportSurfaceArea:String{
+        return "The triangular prism has a surface area of \((baseA+baseB+baseC)*height+heightOnBase*baseB) "
+        
+    }
+    
+}
+
+var someTriangularPrism = triangularPrism(baseA: 2, baseB: 3, baseC: 3, height: 5, heightOnBase: 2)
+print(someTriangularPrism.describeShape)
+print(someTriangularPrism.reportSurfaceArea)
+print(someTriangularPrism.reportVolume)
 /*:
  [Previous: Area Example - Rectangle](@previous) | Page 4
  */
