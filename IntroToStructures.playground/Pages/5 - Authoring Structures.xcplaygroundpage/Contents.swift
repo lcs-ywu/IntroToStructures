@@ -32,7 +32,7 @@ import Foundation
  
  */
 // Begin your work here...
-struct parallelogram {
+struct Parallelogram {
     
     //Proporties
     var base:Double
@@ -59,7 +59,7 @@ print(someParallelogram.describeShape)
 print(someParallelogram.reportArea)
 print(someParallelogram.reportPerimeter)
 
-struct circle {
+struct Circle {
     
     //Properties
     var radius:Double
@@ -84,7 +84,7 @@ print(someCircle.describeShape)
 print(someCircle.reportArea)
 print(someCircle.reportPerimeter)
 
-struct sphere {
+struct Sphere {
     
     //Properties
     var radius:Double
@@ -109,7 +109,7 @@ print(someSphere.describeShape)
 print(someSphere.reportSurfaceArea)
 print(someSphere.reportVolume)
 
-struct triangularPrism {
+struct TriangularPrism {
     
     //Properties
     var baseA:Double
